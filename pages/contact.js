@@ -25,7 +25,7 @@ export default function Contact() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero>
-        <Heading>Contact</Heading>
+        <Heading>Contact me</Heading>
       </Hero>
 
     </>

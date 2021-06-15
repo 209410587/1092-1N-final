@@ -5,16 +5,20 @@ import Image from 'next/image'
 import styled from 'styled-components'
 
 const Hero = styled.div`
-  height: 90vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background: #fff;
+  background-image: url("https://images.unsplash.com/photo-1491485880348-85d48a9e5312?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 `
 const Heading = styled.h1`
-  color: #000;
+  color: #fff;
   font-size: 10rem;
-  font-weight: 900;
+  font-weight: 700;
 `
 export default function Home() {
   return (
@@ -25,7 +29,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero>
-        <Heading>Home Page</Heading>
+        <Heading>Kate Cheng</Heading>
       </Hero>
 
     </>

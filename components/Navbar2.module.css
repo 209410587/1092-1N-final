@@ -74,5 +74,5 @@
 
 	
 /* Change this in order to change the Dropdown symbol */
-.nav li > a:after { content:  ' +'; }
+.nav li > a:after { content:  ' ▽'; }
 .nav li > a:only-child:after { content: ''; }

@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import Link from 'next/link'
 
+
 const Nav = styled.nav`
     height: 80px;
     background: #000;
@@ -39,15 +40,6 @@ function Navbar() {
 
             </div>
             
-            {/* <nav className={styles.nav}>
-                 <ul>
-                   <li><a href="#">Home</a></li>
-                   <li><a href="#">About</a></li>
-                   <li><a href="#">Services</a></li>
-                   <li><a href="#">Team</a></li>
-                   <li><a href="#">Contact</a></li>
-                </ul>
-            </nav> */}
         </Nav>
     )
 }

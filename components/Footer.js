@@ -12,7 +12,7 @@ const FooterSection = styled.div`
 function Footer() {
     return (
         <FooterSection>
-            <p>Week 16 Homework 2021 June</p>
+            <p>JS Final Project 2021 June</p>
         </FooterSection>
     )
 }
